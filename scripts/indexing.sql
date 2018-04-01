@@ -5,7 +5,7 @@ ON car_models (model_title);
 CREATE INDEX idx_make_code
 ON car_models (make_code);
 CREATE INDEX idx_model_code
-ON car_models (mode_code);
+ON car_models (model_code);
 CREATe INDEX idx_year
 ON car_models (year);
 SELECT DISTINCT model_title from car_models
